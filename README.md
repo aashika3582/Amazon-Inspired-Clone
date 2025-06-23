@@ -21,7 +21,7 @@ A fully responsive **frontend-only clone** of Amazon's e-commerce platform, buil
 
 - **HTML5** – Semantic structure and layout  
 - **CSS3** – Responsive styling using Flexbox and Grid  
-- **Vanilla JavaScript** – DOM manipulation and logic  
+- **JavaScript** – DOM manipulation and logic  
 - **localStorage** – For cart state management  
 
 ---
