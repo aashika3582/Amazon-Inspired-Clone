@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skullcandy Headphones</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <a href="index.html"><div class="logo"></div></a>
+            </div>
+
+            <div class="nav_address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="add-sec">India</div>
+                </div>
+            </div>
+            
+            <div class="navsearch">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            
+            <div class="nav-signin border">
+                <a href="login.html" style="text-decoration: none; color: inherit;">          
+                    <div>
+                        <p><span id="userGreeting">Hello, sign in</span></p>
+                        <p class="navsec">Accounts & Lists</p>
+                    </div>
+                </a>    
+            </div>
+
+            <div class="nav-return border">
+                <a href="order.html" class="nav-link" style="text-decoration: none; color: inherit;">    
+                    <div class="nav-item">
+                        <p style="color: white;"><span>Returns</span></p>
+                        <p class="navsec" style="color: white;">& Orders</p>
+                    </div>
+                </a>
+            </div>
+            
+            <a href="cart.html" class="navcart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cartCount">0</span>
+                Cart
+            </a>
+        </div>
+
+        <div class="panel">
+            <div class="panelall">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panelops">
+                <p>Today's Deal</p>
+                <p>Customer Service</p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p>Sell</p>
+            </div>
+            <div class="deals">
+                Shop deals in Electronics
+            </div>
+        </div>
+    </header>
+
+    <div class="product">
+        <div class="prdimg1" style="background-image: url('headphones.jpg');"></div>
+        <div class="content">
+            <div class="abtprd">
+                <h2>Skullcandy Hesh Evo Over Ear Wireless Headphones, 36 Hr Battery, Microphone, Works with iPhone Android and Bluetooth Devices - True Black</h2>
+            </div>
+
+            <div class="priceof">
+                <h2>₹6,999</h2>
+            </div>
+            
+            <div class="offers">
+                <div class="emi">
+                    <h3>No Cost EMI</h3>
+                    <h4>Upto ₹315.16 EMI interest savings on select Credit Cards</h4>
+                </div>
+                <div class="cashback">
+                    <h3>Cashback</h3>
+                    <h4>Upto ₹209.00 cashback as Amazon Pay Balance when you pay with Amazon Pay ICICI Bank Credit Cards</h4>
+                </div>
+                <div class="bankoffer">
+                    <h3>Bank Offer</h3>
+                    <h4>Upto ₹3,000.00 discount on select Credit Cards, HDFC</h4>
+                </div>
+                <div class="partneroff">
+                    <h3>Partner Offers</h3>
+                    <h4>Get GST invoice and save up to 28% on business purchases</h4>
+                </div>
+            </div>
+            
+            <div class="aboutitem">
+                <h3>About Item</h3>
+                <ul>
+                    <li>GO-ANYWHERE DESIGN. Thanks to rugged, innovative hinges that both fold flat and collapse, Hesh Evo easily goes wherever you go.</li>
+                    <li>COMFORT FOR HOURS. With an ultralight headband and soft pads that fully surround your ears, Hesh Evo is one of the most comfortable headphones you'll ever put on.</li>
+                    <li>EASY, CONVENIENT CONTROLS. Simple, intuitive buttons let you take calls, adjust volume and change tracks without ever touching your phone.</li>
+                </ul>
+            </div>
+
+            <div class="buyopt">
+                <button class="addtocart" onclick="addToCart('headphone')">
+                    Add To Cart
+                </button>
+                <button class="buynow" onclick="buyNow('headphone')">
+                    Buy Now
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footpanel1" onclick="scrollToTop()">
+            Back to Top
+        </div>
+
+        <div class="footpanel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amazon Business</a>
+                <a>Sell apps on Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+                <a>Host an Amazon Hub</a>
+                <a>See More Make Money with Us</a>
+            </ul>
+
+            <ul>
+                <p>Amazon Payment Products</p>
+                <a>Amazon Business Card</a>
+                <a>Shop with Points</a>
+                <a>Reload Your Balance</a>
+                <a>Amazon Currency Converter</a>
+            </ul>
+
+            <ul>
+                <p>Let Us Help You</p>
+                <a>Amazon and COVID-19</a>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>
+                <a>Manage Your Content and Devices</a>
+                <a>Help</a>
+            </ul>
+        </div>
+       
+        <div class="footpanel3">
+            <div class="logo"></div>
+        </div>
+    
+        <div class="footpanel4">
+            <div class="pages1">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Consumer Health Data Privacy Disclosure</a>
+            </div>
+
+            <div class="pages2">
+                <a>Your Ads Privacy Choices</a>
+                <a>© 1996-2025, Amazon.com, Inc. or its affiliates</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

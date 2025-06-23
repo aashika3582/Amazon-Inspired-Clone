@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign In - Amazon Clone</title>
+  <link rel="stylesheet" href="login_style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo" class="logo">
+
+    <div class="login-box">
+      <h2>Sign in or create account</h2>
+
+      <!-- Step 1: Email input -->
+      <label for="email" id="email-label">Enter mobile number or email</label>
+      <input type="text" id="email" required>
+
+      <!-- Step 2: Password input, hidden initially -->
+      <label for="password" id="password-label" style="display: none;">Enter your password</label>
+      <input type="password" id="password" style="display: none;" required>
+
+      <button class="continue-btn" id="continueBtn">Continue</button>
+
+      <p class="terms">
+        By continuing, you agree to Amazon's 
+        <a href="#">Conditions of Use</a> and 
+        <a href="#">Privacy Notice</a>.
+      </p>
+
+      <hr>
+
+      <p class="business-link">
+        <strong>Buying for work?</strong><br>
+        <a href="#">Create a free business account</a>
+      </p>
+    </div>
+
+    <footer>
+      <a href="#">Conditions of Use</a>
+      <a href="#">Privacy Notice</a>
+      <a href="#">Help</a>
+      <p>© 1996–2025, Amazon.com, Inc. or its affiliates</p>
+    </footer>
+  </div>
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>

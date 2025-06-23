@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Amazon.in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <a href="index.html"><div class="logo"></div></a>
+            </div>
+            <div class="nav_address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="add-sec">India</div>
+                </div>
+            </div>
+            <div class="navsearch">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-signin border">
+                <a href="login.html" style="text-decoration: none; color: inherit;">          
+                    <div>
+                        <p><span id="userGreeting">Hello, sign in</span></p>
+                        <p class="navsec">Account & Lists</p>
+                    </div>
+                </a>    
+            </div>
+            <div class="nav-return border">
+                <a href="order.html" style="text-decoration: none; color: inherit;">    
+                    <div class="nav-item">
+                        <p style="color: white;"><span>Returns</span></p>
+                        <p class="navsec" style="color: white;">& Orders</p>
+                    </div>
+                </a>
+            </div>
+            <a href="cart.html" class="navcart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cartCount">0</span>
+                Cart
+            </a>
+        </div>
+    </header>
+
+    <div class="cart-container">
+        <div class="main-cart">
+            <h2 id="cartTitle">Shopping Cart</h2>
+            <div id="cartContent">
+                <!-- Cart items will be loaded here -->
+            </div>
+            <div class="cart-total" id="cartTotalSection" style="display: none;">
+                <h3>Subtotal: ₹<span id="cartTotal">0</span></h3>
+                <button id="checkoutBtn" class="checkout-btn">Proceed to Buy</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footpanel1" onclick="scrollToTop()">Back to Top</div>
+        <div class="footpanel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>About Amazon</a>
+                <a>Careers</a>
+                <a>Press Releases</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amazon Business</a>
+                <a>Become an Affiliate</a>
+            </ul>
+        </div>
+        <div class="footpanel3">
+            <div class="logo"></div>
+        </div>
+        <div class="footpanel4">
+            <div class="pages1">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+            </div>
+            <div class="pages2">
+                <a>© 1996-2025, Amazon.com, Inc. or its affiliates</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

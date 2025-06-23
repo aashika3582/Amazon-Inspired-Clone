@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Watch - Amazon.in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <a href="index.html"><div class="logo"></div></a>
+            </div>
+            <div class="nav_address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="add-sec">India</div>
+                </div>
+            </div>
+            <div class="navsearch">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-signin border">
+                <a href="login.html" style="text-decoration: none; color: inherit;">          
+                    <div>
+                        <p><span id="userGreeting">Hello, sign in</span></p>
+                        <p class="navsec">Account & Lists</p>
+                    </div>
+                </a>    
+            </div>
+            <div class="nav-return border">
+                <a href="order.html" style="text-decoration: none; color: inherit;">    
+                    <div class="nav-item">
+                        <p style="color: white;"><span>Returns</span></p>
+                        <p class="navsec" style="color: white;">& Orders</p>
+                    </div>
+                </a>
+            </div>
+            <a href="cart.html" class="navcart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cartCount">0</span>
+                Cart
+            </a>
+        </div>
+        <div class="panel">
+            <div class="panelall">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panelops">
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p>Sell</p>
+            </div>
+            <div class="deals">
+                Shop deals in Electronics
+            </div>
+        </div>
+    </header>
+
+    <div class="product">
+        <div class="prdimg1" style="background-image: url('watch.jpg');"></div>
+        <div class="content">
+            <div class="abtprd">
+                <h2>Apple Watch Series 10 GPS 46 mm Smartwatch with Silver Aluminium Case with White Sport Band. Fitness Tracker, ECG Apps, Always-On Retina Display</h2>
+            </div>
+            <div class="priceof">
+                <h2>₹49,990</h2>
+            </div>
+            <div class="offers">
+                <div class="emi">
+                    <h3>No Cost EMI</h3>
+                    <h4>Upto ₹2,249.55 EMI interest savings on select Credit Cards</h4>
+                </div>
+                <div class="cashback">
+                    <h3>Cashback</h3>
+                    <h4>Upto ₹1,499.70 cashback as Amazon Pay Balance</h4>
+                </div>
+                <div class="bankoffer">
+                    <h3>Bank Offer</h3>
+                    <h4>Upto ₹7,000.00 discount on select Credit Cards</h4>
+                </div>
+                <div class="partneroff">
+                    <h3>Partner Offers</h3>
+                    <h4>Get GST invoice and save up to 28% on business purchases</h4>
+                </div>
+            </div>
+            <div class="aboutitem">
+                <h3>About Item</h3>
+                <ul>
+                    <li>HEALTH MONITORING: Advanced health sensors including ECG and blood oxygen</li>
+                    <li>GPS TRACKING: Built-in GPS for accurate workout tracking</li>
+                    <li>WATER RESISTANT: Swim-proof design with 50-meter water resistance</li>
+                    <li>ALWAYS-ON DISPLAY: Retina display that's always visible</li>
+                </ul>
+            </div>
+            <div class="buyopt">
+                <button class="addtocart" onclick="addToCart('watch')">Add To Cart</button>
+                <button class="buynow" onclick="buyNow('watch')">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footpanel1" onclick="scrollToTop()">Back to Top</div>
+        <div class="footpanel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>About Amazon</a>
+                <a>Careers</a>
+                <a>Press Releases</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amazon Business</a>
+                <a>Become an Affiliate</a>
+            </ul>
+        </div>
+        <div class="footpanel3">
+            <div class="logo"></div>
+        </div>
+        <div class="footpanel4">
+            <div class="pages1">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+            </div>
+            <div class="pages2">
+                <a>© 1996-2025, Amazon.com, Inc. or its affiliates</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
