@@ -27,6 +27,17 @@ A fully responsive **frontend-only clone** of Amazon's e-commerce platform, buil
 ---
 
 ## Images 
- **Home Page**
- ![image alt]()
+ **Product Page**
+ ![image alt](https://github.com/aashika3582/Amazon-Inspired-Clone/blob/8a2aa489bc1c4b02a04005f75d16cf6c9224c6cb/product.png)
+
+  **Order**
+   ![image alt](https://github.com/aashika3582/Amazon-Inspired-Clone/blob/8a2aa489bc1c4b02a04005f75d16cf6c9224c6cb/product.png)
+
+  **Cart**
+   ![image alt](https://github.com/aashika3582/Amazon-Inspired-Clone/blob/8a2aa489bc1c4b02a04005f75d16cf6c9224c6cb/product.png)
+
+  **Sign in**
+   ![image alt](https://github.com/aashika3582/Amazon-Inspired-Clone/blob/8a2aa489bc1c4b02a04005f75d16cf6c9224c6cb/product.png)
+
+
 
