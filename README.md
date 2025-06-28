@@ -26,5 +26,7 @@ A fully responsive **frontend-only clone** of Amazon's e-commerce platform, buil
 
 ---
 
-##  Project Structure
+## Images 
+ **Home Page**
+ ![image alt]()
 
